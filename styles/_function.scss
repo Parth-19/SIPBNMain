@@ -1,0 +1,75 @@
+@mixin flex($align, $justify, $direction) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+@mixin grid($columns, $gap) {
+  display: grid;
+  grid-template-columns: $columns;
+  grid-gap: $gap;
+}
+.grid-2 {
+  @include grid(repeat(2, 1fr), 50px);
+}
+.grid-3 {
+  @include grid(repeat(3, 1fr), 50px);
+}
+.grid-4 {
+  @include grid(repeat(4, 1fr), 50px);
+}
+
+.grid-6 {
+  @include grid(repeat(6, 1fr), 30px);
+}
+.grid-7 {
+  @include grid(repeat(7, 1fr), 30px);
+}
+.grid-8 {
+  @include grid(repeat(8, 1fr), 30px);
+}
+.grid-9 {
+  @include grid(repeat(9, 1fr), 30px);
+}
+.grid-10 {
+  @include grid(repeat(5, 1fr), 40px);
+}
+.grid-12{
+  @include grid(repeat(6,1fr), 40px);
+}
+
+@media screen and (max-width: 800px){
+  .grid-2{
+    @include grid(repeat(1,1fr) , 150px)
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .grid-6,
+  .grid-4,
+  .grid-10,
+  .grid-7,
+  .grid-12,
+  .grid-3 {
+    @include grid(repeat(2, 1fr), 50px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .grid-2,
+  .grid-3,
+  .grid-6,
+  .grid-7,
+  .grid-8,
+  .grid-10,
+  .grid-9,
+  .grid-10,
+  .grid-12,
+  .grid-4 {
+    @include grid(repeat(1, 1fr), 50px);
+  }
+}
