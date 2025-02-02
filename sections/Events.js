@@ -13,6 +13,23 @@ const Events = () => {
         <div className="container">
           <br />
           <Title title="Upcoming Events" />
+          <div className="eventCard">
+              <a>
+                <img
+                  className="eventImg"
+                  src="/events/Upcoming.png"
+                  alt="Event 3 Image"
+                />
+              </a>
+              <h2 className="event-title">April 2025</h2>
+              <p className="event-description">
+               Trade Delegation to India
+              </p>
+            </div>
+            
+          
+
+          <Title title="Past Events" />
           <div className="event-container">
             <div className="eventCard">
               <a href="https://events.humanitix.com/clean-energy-monetising-the-opportunity">
@@ -59,8 +76,6 @@ const Events = () => {
               <p className="event-description">Christmas Party</p>
             </div>
           </div>
-
-          <Title title="Past Events" />
           <div className="event-container">
             <div className="eventCard">
               <a href="https://events.humanitix.com/economic-update-opportunities-and-challenges">

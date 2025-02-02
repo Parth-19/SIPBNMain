@@ -18,13 +18,13 @@ function HeroMain() {
       }}
     >
       <video className="bgVideo" autoPlay muted loop playsInline>
-        <source src="/videos/CapTech2024.mp4" type="video/mp4" />
+        <source src="/videos/CapTech2025.mp4" type="video/mp4" />
       </video>
       <div className="heroContent">
         <div className="box" data-aos="fade-right">
           <h2>
-            #CapTech2024 <br />
-            25th - 28th November 2024
+            #CapTech2025 <br />
+            13th November 2025
           </h2>
           <Link href={`/ticket-purchase?eventId=${eventId}`}>
             <button className="secondary-button">Buy Tickets</button>
@@ -33,7 +33,7 @@ function HeroMain() {
             <button
               className="button-primary"
               onClick={() =>
-                window.open("/Captech_Highlight_Document.pdf", "_blank")
+                window.open("/#CapTech2025 Partnership Proposal.pdf", "_blank")
               }
             >
               Download Brochure
@@ -45,14 +45,14 @@ function HeroMain() {
             <div className="brandImageHolder">
               <img src="/images/sipbnLogo.png" className="brandImage" alt="" />
               <div className="brandTextHolder">
-                <h2>#CapTech2024</h2>
-                <p>November 2024</p>
+                <h2>#CapTech2025</h2>
+                <p>November 2025</p>
                 <hr />
-                <i>ICC SYDNEY</i>
+                <i>Hyatt Regency, Sydney</i>
               </div>
             </div>
             <video style={{ width: "60%", borderRadius: "10px" }} controls>
-              <source src="/videos/CapTech2024.mp4" />
+              <source src="/videos/CapTech2025.mp4" />
             </video>
           </div>
         </div>

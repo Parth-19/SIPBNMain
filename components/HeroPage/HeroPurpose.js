@@ -7,7 +7,7 @@ function HeroPurpose() {
       <div className="heroContainer2">
         <div className="purposeContainer">
           <Title title="Purpose" />
-          <h2>Our inspiration for 2024: Discover : Connect : Execute</h2>
+          <h2>Our inspiration for 2025: Discover : Connect : Execute</h2>
           <p className="purposeTextContainer">
             Discover: Explore Australia’s future-focused industries, featuring
             visionary speakers, thought leaders, and innovative resolutions that

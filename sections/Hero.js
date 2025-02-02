@@ -18,7 +18,7 @@ import BenefitsActivities from "@/components/HeroPage/BenefitsAcitivity";
 import Link from "next/link";
 import BrandCarousel from "@/components/HeroPage/BrandCarousel";
 import TicketPage from "@/components/HeroPage/TicketPage";
-import HeroAgenda from "@/components/HeroPage/HeroAgenda";
+// import HeroAgenda from "@/components/HeroPage/HeroAgenda";
 import SpeakerCarousel from "@/components/HeroPage/SpeakerCarousel";
 
 function Hero() {
@@ -166,10 +166,10 @@ function Hero() {
           <TicketPage />
         </div>
 
-        <div data-aos="fade-left">
+        {/*<div data-aos="fade-left">
           <HeroAgenda />
           <Banner />
-        </div>
+        </div> */}
 
         <div data-aos="fade-right">
           <BenefitsActivities />

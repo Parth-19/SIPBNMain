@@ -11,7 +11,7 @@ const BusinessForum = () => {
           <div className="business-forum__image image-4"></div>
         </div>
         <div className="business-forum__info">
-          <h2>#CapTech2024 Summit Pass</h2>
+          <h2>#CapTech2025 Summit Pass</h2>
           <ul>
             <li>1. NSW Parliament Drinks</li>
             <li>2. #CapTech2024 All Day Event + Post Event Drinks</li>

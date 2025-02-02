@@ -13,7 +13,7 @@ const CountdownTimer = () => {
   }, []);
 
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-11-26T00:00:00");
+    const eventDate = new Date("2025-11-13T00:00:00");
     const currentTime = new Date();
     const difference = eventDate - currentTime;
 

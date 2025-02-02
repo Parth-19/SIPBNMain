@@ -9,14 +9,14 @@ function TicketPage() {
         <Title title="TICKET AVAILABILITY IS LIMITED " />
         <Title title="GET YOURS TODAY" />
         <hr style={{ width: "20%", border: 0, borderTop: "1px solid #ccc" }} />
-        {/* <h2>OFFER : Valid Until 31st October 2024!</h2>
-        <h3>20% Discount valid until 31st October 2024</h3> */}
+         <h2>OFFER : Valid Until 31st March 2025!</h2>
+        <h3>50% Discount valid until 31st March 2025</h3> 
       </div>
 
       <div className="ticketContent">
         {/* First Ticket (959) */}
         <div className="ticketCard">
-          <h3>#CapTech2024 + Post Networking</h3>
+          <h3>#CapTech2025 + Post Networking</h3>
           <div
             className="customHr"
             style={{ background: "linear-gradient(135deg, #dcdcdc, #f5f5f5)" }}
@@ -28,8 +28,8 @@ function TicketPage() {
           {/* <h4>Regular Price: $1,199</h4> */}
           <CardDropDown
             content={{
-              l1: "#CapTech2024 Summit on Tuesday 26 November 2024 at ICC Sydney",
-              l2: "#CapTech2024 Summit on Tuesday 26 November 2024 post networking drinks",
+              l1: "#CapTech2025 Summit on Thursday 13 November 2025 at Hyatt Regency",
+              l2: "#CapTech2025 Summit on Thursday 13 November 2025 post networking drinks",
             }}
             maxHeight="300px"
           />
@@ -40,7 +40,7 @@ function TicketPage() {
 
         {/* Second Ticket (1199) */}
         <div className="ticketCard">
-          <h3>#CapTech2024 Summit + Welcome Drinks</h3>
+          <h3>#CapTech2025 Summit + Welcome Drinks</h3>
           <div
             className="customHr"
             style={{ background: "linear-gradient(135deg, #f9d423, #ff4e50)" }}
@@ -52,9 +52,9 @@ function TicketPage() {
           {/* <h4>Regular Price: $1,499</h4> */}
           <CardDropDown
             content={{
-              l1: "Welcome Drinks at NSW Parliament House on Monday 25 November 2024",
-              l2: "#CapTech2024 Summit on Tuesday 26 November 2024 at ICC Sydney",
-              l3: "#CapTech2024 Summit on Tuesday 26 November 2024 post networking drinks",
+              l1: "Welcome Drinks at NSW Parliament House",
+              l2: "#CapTech2025 Summit on Thursday 13 November 2025 at Hyatt Regency",
+              l3: "#CapTech2025 Summit on Thursday 13 November 2025 post networking drinks",
             }}
             maxHeight="400px"
           />
@@ -65,7 +65,7 @@ function TicketPage() {
 
         {/* Third Ticket (2250) */}
         <div className="ticketCard">
-          <h3>#CapTech2024 SUMMIT PASS</h3>
+          <h3>#CapTech2025 SUMMIT PASS</h3>
           <div
             className="customHr"
             style={{ background: "linear-gradient(135deg, #b9fbc0, #00d2ff)" }}
@@ -78,10 +78,10 @@ function TicketPage() {
           <CardDropDown
             content={{
               l1: "NSW Parliament Drinks",
-              l2: "#CapTech2024 All Day Event + Post Event Drinks",
+              l2: "#CapTech2025 All Day Event + Post Event Drinks",
               l3: "VIP seating & check-in",
               l4: "Private Dinner",
-              l5: "Two Days of Dedicated Business Matching Sessions at Shangri-La Sydney",
+              l5: "Two Days of Dedicated Business Matching Sessions",
               l6: "Master class by world leader Michael Masterson on - How to go from pitching to catching for investors using your hidden assets",
             }}
             maxHeight="660px"
@@ -93,7 +93,7 @@ function TicketPage() {
 
         {/* Fourth Ticket (9592) */}
         <div className="ticketCard">
-          <h3>#CapTech2024 Corporate Table of 10</h3>
+          <h3>#CapTech2025 Corporate Table of 10</h3>
           <div
             className="customHr"
             style={{ background: "linear-gradient(135deg, #d50032, #c51162)" }}
@@ -105,8 +105,8 @@ function TicketPage() {
           {/* <h4>Regular Price: $11,990</h4> */}
           <CardDropDown
             content={{
-              l1: "#CapTech2024 Summit on Tuesday 26 November 2024 at ICC Sydney",
-              l2: "#CapTech2024 Summit on Tuesday 26 November 2024 post networking drinks",
+              l1: "#CapTech2025 Summit on Thursday 13 November 2025 at Hyatt Regency, Sydney",
+              l2: "#CapTech2025 Summit on Thursday 13 November 2025 post networking drinks",
             }}
             maxHeight="200px"
           />

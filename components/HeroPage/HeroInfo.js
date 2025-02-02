@@ -24,9 +24,9 @@ function HeroInfo() {
             style={{ padding: "10px", justifyContent: "space-evenly" }}
           >
             <div>
-              <h2 style={{ marginBottom: "20px" }}>#CapTech2024</h2>
+              <h2 style={{ marginBottom: "20px" }}>#CapTech2025</h2>
               <p className="agendaText">
-                Organised by SIPBN Inc, #CapTech2024 is your gateway to the
+                Organised by SIPBN Inc, #CapTech2025 is your gateway to the
                 forefront of innovation offering an unparalleled opportunity to
                 engage directly with the luminaries of future-focused
                 industries.

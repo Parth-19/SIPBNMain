@@ -7,10 +7,10 @@ const Banner = () => {
       <section className="banner">
         <div className="container">
           <div>
-            <h2 className="bannerTitle">Secure your #CapTech2024 ticket!</h2>{" "}
+            <h2 className="bannerTitle">Secure your #CapTech2025 ticket!</h2>{" "}
             <br />
-            {/* <p> Buy tickets at 20% Discount with code SIPBN20. </p> */}
-            {/* <p> Offer valid until October 31, 2024.</p> */}
+            { <p> Buy tickets at 50% Discount with code SIPBN50. </p> }
+            { <p> Offer valid until March 31st, 2025.</p> }
           </div>
           <div>
             <button
