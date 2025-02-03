@@ -27,7 +27,7 @@ const BusinessForum = () => {
             </li>
           </ul>
           <a
-            href={`/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`}
+            href={`/https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/tickets?lang=en`}
             className="enquire-btn"
           >
             Buy Now

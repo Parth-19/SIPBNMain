@@ -26,7 +26,7 @@ function HeroMain() {
             #CapTech2025 <br />
             13th November 2025
           </h2>
-          <Link href={`https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/tickets?lang=en`}>
+          <Link href={`/ticket-purchase?eventId=${eventId}`}>
             <button className="secondary-button">Buy Tickets</button>
           </Link>
           <div style={{ display: "flex" }}>

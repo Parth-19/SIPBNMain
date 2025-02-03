@@ -5,7 +5,7 @@ function Marqueee() {
   return (
     <div>
       <a
-        href={`/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`}
+        href={`/https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/tickets?lang=en`}
         target="_blank"
         rel="noopener noreferrer"
       >

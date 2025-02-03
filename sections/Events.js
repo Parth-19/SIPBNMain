@@ -88,7 +88,7 @@ const Events = () => {
               </p>
             </div>
             <div className="eventCard">
-              <a href={`/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`}>
+              <a href={`/https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/tickets?lang=en`}>
                 <img
                   className="eventImg"
                   src="/events/25th-Nov2024.png"

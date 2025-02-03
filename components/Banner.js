@@ -16,7 +16,7 @@ const Banner = () => {
             <button
               className="button-primary"
               onClick={() => {
-                window.location.href = `/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`;
+                window.location.href = `/https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/tickets?lang=en`;
               }}
             >
               Book now
