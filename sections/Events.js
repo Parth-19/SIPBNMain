@@ -13,21 +13,53 @@ const Events = () => {
         <div className="container">
           <br />
           <Title title="Upcoming Events" />
-          <div className="eventCard">
-              <a>
+          <div className="event-container">
+            <div className="eventCard">
+              <a href="#">
                 <img
                   className="eventImg"
                   src="/events/Upcoming.png"
-                  alt="Event 3 Image"
+                  alt="Event 1 Image"
                 />
               </a>
-              <h2 className="event-title">April 2025</h2>
+              <h2 className="event-title">25th February 2025</h2>
               <p className="event-description">
-               Trade Delegation to India
+              Doing Business in India
               </p>
             </div>
-            
           
+            <div className="eventCard">
+              <img
+                className="eventImg"
+                src="/events/Upcoming.png"
+                alt="Event 3 Image"
+              />
+              <h2 className="event-title">7th to 13th April 2025</h2>
+              <p className="event-description">
+                Trade Delegation to India
+              </p>
+            </div>
+            <div className="eventCard">
+              <a href={`#`}>
+                <img
+                  className="eventImg"
+                  src="/events/Upcoming.png"
+                  alt="Event 1 Image"
+                />
+              </a>
+              <h2 className="event-title">12th  – 14th Nov 2024</h2>
+              <p className="event-description">#CapTech2025</p>
+            </div>
+           
+          </div>
+          <div className="event-container">
+            
+           
+            
+           
+          </div>
+        
+
 
           <Title title="Past Events" />
           <div className="event-container">

@@ -71,4 +71,4 @@ const CarouselWithText = () => {
   );
 };
 
-export default CarouselWithText;
+export default CarouselWithText; 

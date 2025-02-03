@@ -37,13 +37,13 @@ function Hero() {
       <HeroMain />
 
       <div style={{ background: "linear-gradient(270deg, #0a0f45, #000000)" }}>
-        <div className="brandCarouselHolder">
+        {/*<div className="brandCarouselHolder">
           <BrandCarousel />
         </div>
 
         <div data-aos="fade-right">
           <SpeakerCarousel />
-        </div>
+        </div>*/}
 
         <section className="hero-sec">
           <div></div>
@@ -84,10 +84,10 @@ function Hero() {
               <HeroInfo />
             </div>
 
-            {/* <div className="banner2" data-aos="fade-left">
+            <div className="banner2" data-aos="fade-left">
             <div className="bannerTitle container">
-              <h2>Secure your #CapTech2024 ticket!</h2>
-              <p>Early bird discount 20% till 31st October 2024</p>
+              <h2>Secure your #CapTech2025 ticket!</h2>
+              <p>Early bird discount 50% till 31st March 2024</p>
               <a
                 href={`/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`}  
                 target="_blank"
@@ -97,7 +97,7 @@ function Hero() {
                 Book Your Tickets
               </a>
             </div>
-          </div> */}
+          </div> 
           </div>
 
           {/* <div className="grid-3">
@@ -116,9 +116,9 @@ function Hero() {
         </div> */}
         </section>
 
-        <div data-aos="fade-right">
+        {/*<div data-aos="fade-right">
           <Banner />
-        </div>
+        </div>*/}
 
         {/* <section className="bannerr"> */}
         {/* <div className="container">
