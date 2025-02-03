@@ -33,7 +33,7 @@ function TicketPage() {
             }}
             maxHeight="300px"
           />
-          <Link href={`/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`}>
+          <Link href={`https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/buyTickets?ticketClassId=34954000000015206`}>
             <button className="ticketButton">Buy Now</button>
           </Link>
         </div>
@@ -58,7 +58,7 @@ function TicketPage() {
             }}
             maxHeight="400px"
           />
-          <Link href={`/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`}>
+          <Link href={`https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/buyTickets?ticketClassId=34954000000015214`}>
             <button className="ticketButton">Buy Now</button>
           </Link>
         </div>
@@ -82,11 +82,11 @@ function TicketPage() {
               l3: "VIP seating & check-in",
               l4: "Private Dinner",
               l5: "Two Days of Dedicated Business Matching Sessions",
-              l6: "Master class by world leader Michael Masterson on - How to go from pitching to catching for investors using your hidden assets",
+        
             }}
             maxHeight="660px"
           />
-          <Link href={`/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`}>
+          <Link href={`https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/buyTickets?ticketClassId=34954000000015226`}>
             <button className="ticketButton">Buy Now</button>
           </Link>
         </div>
@@ -110,7 +110,7 @@ function TicketPage() {
             }}
             maxHeight="200px"
           />
-          <Link href={`/ticket-purchase?eventId=iaEHed2PE5Te0BmBwku3`}>
+          <Link href={`https://sipbn-com-au-events.zohobackstage.in/CapTech2025#/buyTickets?ticketClassId=34954000000015220`}>
             <button className="ticketButton">Buy Now</button>
           </Link>
         </div>
